@@ -1,9 +1,9 @@
 {
-  "name": "𝗥𝗼𝘀𝗲𝗽𝗮𝘄-Userbot",
-  "description": "-𝗕𝗬 @ceentwil on telegram-",
-  "logo": "https://graph.org/file/003ead3d38ce27f7e24ab-417d5db990060068d3.jpg",
-  "keywords": ["telegram", "userbot", "Smuddle-Userbot", "modular", "python"],
-  "repository": "https://github.com/rosepaw7/Rosepaw-Userbot",
+  "name": "𝗕𝗼𝘁𝗻𝘆𝗮𝗳𝗶𝗼",
+  "description": "-𝗕𝗬 @Heiii10 on telegram-",
+  "logo": "https://graph.org/file/c02153188c51b26312125-294065edaae729df14.jpg",
+  "keywords": ["telegram", "userbot", "Botnyafio", "modular", "python"],
+  "repository": "https://github.com/amerraa/botnyafio",
   "stack": "container",
   "env": {
     "API_KEY": {
