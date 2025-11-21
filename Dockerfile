@@ -1,11 +1,11 @@
 FROM python:3.9
-RUN git clone -b Rosepaw-Userbot https://github.com/rosepaw7/Rosepaw-Userbot /home/Rosepawuserbot/ \
-    && chmod 777 /home/Rosepawuserbot \
-    && mkdir /home/Rosepawuserbot/bin/
+RUN git clone -b botnyafio https://github.com/amerraa/botnyafio /home/Botnyafio/ \
+    && chmod 777 /home/Botnyafio \
+    && mkdir /home/Botnyafio/bin/
 
-COPY ./sample_config.env ./config.env* /home/Rosepawuserbot/
+COPY ./sample_config.env ./config.env* /home/Botnyafio/
 
-WORKDIR /home/Rosepawuserbot/
+WORKDIR /home/Botnyafio/
 
 RUN pip install --upgrade pip
 RUN pip install --upgrade pip setuptools wheel
