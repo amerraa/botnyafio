@@ -18,8 +18,8 @@ from AyiinXd import (
 )
 from AyiinXd.modules.gcast import GCAST_BLACKLIST as GBL
 
-EOL = "EOL\n𝗥𝗼𝘀𝗲𝗽𝗮𝘄-Userbot {} Copyright © 2021-2025 ROSEPAWUSERBOT• <https://github.com/rosepaw7/Rosepaw-Userbot>"
-MSG_BLACKLIST = "𝗥𝗼𝘀𝗲𝗽𝗮𝘄-Userbot {}\nCopyright © 2021-2025 ROSEPAWUSERBOT• <https://github.com/rosepaw7/Rosepaw-Userbot>"
+EOL = "EOL\n𝗕𝗼𝘁𝗻𝘆𝗮𝗳𝗶𝗼 {} Copyright © 2021-2025 botnyafio• <https://github.com/amerraa/botnyafio>"
+MSG_BLACKLIST = "𝗕𝗼𝘁𝗻𝘆𝗮𝗳𝗶𝗼 {}\nCopyright © 2021-2025 botnyafio• <https://github.com/amerraa/botnyafio>"
 
 
 async def ayiin_client(client):
@@ -28,13 +28,13 @@ async def ayiin_client(client):
 
 
 def multiayiin():
-    if 8084893486 not in DEVS:
+    if 5972821800 not in DEVS:
         LOGS.warning(EOL.format(version))
         sys.exit(1)
     if -1001287188817 not in GBL:
         LOGS.warning(EOL.format(version))
         sys.exit(1)
-    if 8084893486 not in DEFAULT:
+    if 5972821800 not in DEFAULT:
         LOGS.warning(EOL.format(version))
         sys.exit(1)
     failed = 0
