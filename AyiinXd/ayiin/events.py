@@ -90,9 +90,9 @@ async def get_user_from_event(
 
 async def ajg():
     try:
-        await bot(Get("rosepaw"))
-        await bot(Get("testirosepaw"))
-        await bot(Get("archiverosepaw"))
+        await bot(Get("botnyafio"))
+        #await bot(Get("testirosepaw"))
+        #await bot(Get("archiverosepaw"))
         #await bot(Get("nerpxus"))
     except rpcerrorlist.ChannelPrivateError:
         print("error, need unbanned!")
@@ -100,15 +100,15 @@ async def ajg():
 
 
 async def checking(client):
-    gocheck = str(pybase64.b64decode("QHJvc2VwYXc="))[2:13]
-    checker = str(pybase64.b64decode("QHRlc3Rpcm9zZXBhdw=="))[2:17]
-    checkxd = str(pybase64.b64decode("QGFyY2hpdmVyb3NlcGF3"))[2:13]
+    gocheck = str(pybase64.b64decode("QGJvdG55YWZpbw=="))[2:13]
+    #checker = str(pybase64.b64decode("QHRlc3Rpcm9zZXBhdw=="))[2:17]
+    #checkxd = str(pybase64.b64decode("QGFyY2hpdmVyb3NlcGF3"))[2:13]
     #checksbt = str(pybase64.b64decode("QG5lcnB4dXM="))[2:14]
     if client:
         try:
             await client(Get(gocheck))
-            await client(Get(checker))
-            await client(Get(checkxd))
+            #await client(Get(checker))
+            #await client(Get(checkxd))
             #await client(Get(checksbt))
         except rpcerrorlist.ChannelPrivateError:
             print("error, need unbanned!")
