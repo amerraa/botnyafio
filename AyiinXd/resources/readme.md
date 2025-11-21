@@ -1,2 +1,2 @@
-# Extra Resources for Rosepaw-Userbot
-Repository [Rosepaw-Userbot](https://github.com/rosepaw7/Rosepaw-Userbot)
+# Extra Resources for 𝗕𝗼𝘁𝗻𝘆𝗮𝗳𝗶𝗼
+Repository [botnyafio](https://github.com/amerraa/botnyafio)
